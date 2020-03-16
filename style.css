@@ -1,27 +1,31 @@
 * {
   margin: 0px;
-  padding: 5px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(171, 76, 55);
+  background-color: rgb(150, 151, 153);
   font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
 
-nav {
+/* Navbar */
+.nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
+  min-height: 10vh;
   background-color: #5d4954;
+  margin: auto;
+  overflow: auto;
 }
 
 .logo {
   color: rgb(226, 226, 226);
   text-transform: uppercase;
   padding-left: 5%;
+  font-size: 17px;
 }
 
 .nav-links {
@@ -36,12 +40,99 @@ nav {
 .nav-links a {
   color: rgb(226, 226, 226);
   text-decoration: none;
+  font-size: 17px;
+}
+/* End of Navbar */
+
+#sidebar {
+  width: 200px;
+  height: 100%;
+  background: rgb(226, 226, 226);
+  left: -200px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.2s ease-in;
 }
 
-.burger div {
-  width: 40px;
-  line-height: 4px;
-  height: 3px;
-  background-color: rgb(226, 226, 226);
-  margin: 5px;
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul li {
+  list-style: none;
+  padding: 15px 10px;
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: white;
+  margin: 5px 0px;
+}
+
+/*sidebar icon */
+#hamburger {
+  background: white;
+  height: 100vh;
+  width: 100px;
+}
+
+#hamburger > i {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav-hidden {
+  display: none;
+}
+
+.brands {
+  background-color: red;
+}
+/* End of Sidebar */
+
+.Note10 {
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  float: center;
+  flex-direction: column;
+  position: relative;
+  max-width: 35%;
+  padding-bottom: 49px;
+  justify-content: flex-end;
+}
+
+.OnePlus {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  border-style: solid;
+  max-width: 35%;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  height: 48vh;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }

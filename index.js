@@ -1,2 +1,3 @@
-const attention = "Please use Chrome only for this website!!";
-alert(attention);
+document.querySelector(".fa-bars").addEventListener("click", () => {
+  document.querySelector(".brands > ul").classList.toggle("nav-hidden");
+});
