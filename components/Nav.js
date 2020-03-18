@@ -1,27 +1,20 @@
-export default links => `<nav>
-<div class ="nav">
-    <div class = "logo">
-      <h4>Jermell's Website</h4>
-    </div>
-      <ul class="nav-links">
-        <li>
-          <a href="#">Galaxy S10+</a>
-        </li>
-        <li>
-          <a href="#">iPhone 11 Pro Max</a>
-        </li>
-        <li>
-          <a href="#">OnePlus 7 Pro</a>
-        </li>
-        <li>
-          <a href="#">Google Pixel 4 XL</a>
-        </li>
-        <li>
-          <a href="#">Galaxy Note 10+</a>
-        </li>
-      </ul>
+//if (link.title !== "Home") {
+//  return link.title
+//} else {
+//  return ""
+//}
 
-    </div>
-    ${links.map(el => `<li><a href="#">${el}</a></li>`).join()}
+export default links => ` <nav>
+<i class="fas fa-bars"></i>
+<ul class="hidden--mobile nav-links">
+${links.reduce(
+  (html, link) =>
+    html +
+    `<li><a href="/${link.title !== "Home" ? link.title : ""}" title="${
+      link.title
+    }" data-navigo>${link.text}</a></li>`,
+  ``
+)}
+</ul>
 </nav>
 `;

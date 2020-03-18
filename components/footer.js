@@ -1,1 +1,1 @@
-export default () => `HTML template literal`;
+export default () => ``;
