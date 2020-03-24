@@ -4,17 +4,21 @@
 //  return ""
 //}
 
-export default links => ` <nav>
-<i class="fas fa-bars"></i>
-<ul class="hidden--mobile nav-links">
-${links.reduce(
-  (html, link) =>
-    html +
-    `<li><a href="/${link.title !== "Home" ? link.title : ""}" title="${
-      link.title
-    }" data-navigo>${link.text}</a></li>`,
-  ``
-)}
-</ul>
+export default links => `
+<nav>
+<div class ="nav">
+    <div class = "logo">
+      <h4>Jermell's Website</h4>
+    </div>
+      <ul class="nav-links">
+       ${links
+         .map(
+           link =>
+             `<li><a href ="/${link.url}" data-navigo>${link.text}</a></li>`
+         )
+         .join("")}
+      </ul>
+    </div>
+
 </nav>
 `;

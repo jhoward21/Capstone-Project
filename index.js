@@ -1,13 +1,15 @@
-import { Header, Nav, Main, Footer } from "./components";
+import { Header, Nav, Main, Sidebar } from "./components";
 import * as state from "./store";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
-
+console.log(state);
 const router = new Navigo(window.location.origin);
 
 router
   .on({
-    ":page": ({ page }) => render(state[capitalize(page)]),
+    ":page": ({ page }) => {
+      render(state[page]);
+    },
     "/": () => render(state.Home)
   })
   .resolve();
@@ -18,10 +20,10 @@ function render(st = state.Home) {
   ${Header(st)}
   ${Nav(state.Links)}
   ${Main(st)}
-  ${Footer()}`;
-}
+  `;
 
-router.updatePageLinks();
+  router.updatePageLinks();
+}
 
 document.querySelector(".fa-bars").addEventListener("click", () => {
   document.querySelector(".brands > ul").classList.toggle("nav-hidden");
