@@ -1,6 +1,8 @@
-export default () => `
-<div id="container">
-<h1>Most Popular Smartphones Out Right Now!</h1>
-  <h2>Samsung Galaxy Note 10+</h2>
-  <p></p>
-  </div>`;
+export default st => `
+<h2>${st.title}</h2>
+<h3>${st.name}</h3>
+<img src="${st.photo}"/>
+<h2>${st.title}</h2>
+<h3>${st.name}</h3>
+<img src="${st.photo1}"/>
+<p>${st.info}</p>`;

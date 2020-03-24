@@ -136,3 +136,7 @@ body {
   clear: both;
   display: table;
 }
+
+p {
+  color: white;
+}
