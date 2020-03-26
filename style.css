@@ -136,3 +136,13 @@ body {
   clear: both;
   display: table;
 }
+
+#Note10 {
+  float: left;
+  padding: 30px;
+}
+
+#S10 {
+  float: left;
+  padding: 30px;
+}

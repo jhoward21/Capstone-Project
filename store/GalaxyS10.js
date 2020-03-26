@@ -1,6 +1,6 @@
 export default {
   ID: "GalaxyS10",
-  view: "Phone",
+  view: "GalaxyS10",
   screenSize: "6.4 inches",
   photo:
     "https://fdn.gsmarena.com/imgroot/reviews/19/samsung-galaxy-s10-plus/lifestyle/-728w2/gsmarena_025.jpg",
