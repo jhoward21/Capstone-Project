@@ -32,5 +32,11 @@ export default {
   YouTube: "https://www.youtube.com/embed/iOLziUjQ_Vs",
   Purchase: "Links To Purchase The Device",
   Buy1: "https://www.samsung.com/us/mobile/galaxy-note10/",
-  Buy2: "https://www.t-mobile.com/devices/samsung-galaxy-note-10-and-10-plus"
+  Buy2: "https://www.t-mobile.com/devices/samsung-galaxy-note-10-and-10-plus",
+  Buy3:
+    "https://www.verizon.com/smartphones/samsung-galaxy-note-10-plus/?sku=sku3600275",
+  Buy4:
+    "https://www.sprint.com/en/shop/cell-phones/samsung-galaxy-note10-plus.html?ECID=SEM:SGA-Brand-Phones-Samsung-ML:%2Bsprint+%2Bnote&creative=411368875636&tfn=3140&gclid=Cj0KCQjwpfHzBRCiARIsAHHzyZqU6YQlfiN_O7gIPMvgvwzKJXhUS9M0b-I7oNVLgj8O7zDqE7jnt9saApCPEALw_wcB&gclsrc=aw.ds&ensembleId=SPHN975UBLK&contractName=0-yr-lb-18months&deviceQuantity=1&tep=true&protectionPlan=115200468&plan=pln11360001prd&service=PDSBYUP2",
+  Buy5:
+    "https://www.att.com/buy/phones/samsung-galaxy-note10plus-512gb-aura-black.html"
 };

@@ -31,4 +31,7 @@ src="${st.YouTube}">
 <h3>${st.Purchase}</h3>
 <li><a href="${st.Buy1}">Samsung's Official Website</a></li>
 <li><a href="${st.Buy2}">T-Mobile GalaxyNote 10+</a></li>
+<li><a href="${st.Buy3}">Verizon GalaxyNote 10+</a></li>
+<li><a href="${st.Buy4}">Sprint GalaxyNote 10+</a></li>
+<li><a href="${st.Buy5}">AT&T GalaxyNote 10+</a></li>
 `;
