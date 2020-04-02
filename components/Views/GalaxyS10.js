@@ -1,5 +1,9 @@
 export default st => `
+<<<<<<< HEAD
 <h2 id="PT">${st.name}</h2>
+=======
+<h2>${st.name}</h2>
+>>>>>>> e9a8665e3b9ea8b612fe91ca18da761f16256636
 <img id="S10" src="${st.photo}"/>
 <p>${st.info}</p>
 <h3>${st.titleSpecs}</h3>
