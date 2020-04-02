@@ -26,7 +26,7 @@ export default {
   Video: "Video",
   V: "4K 60/30fps HDR10+, 1440p 30fps, 1080p 60/30fps, and Super-Slowmo.",
   FVideo: "FrontCam-Video",
-  FV: "4K 60/30fps, 1080p 30fps",
+  FV: "4K 60/30fps, 1080p 30fps/120fps",
   YT: "YouTube Video:",
   YouTube: "https://www.youtube.com/embed/IadIG1hgHbo",
   Purchase: "Links To Purchase The Device",
