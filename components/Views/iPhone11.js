@@ -1,4 +1,5 @@
 export default st => `
+<div id="i11">
 <h2 id="PT">${st.name}</h2>
 <img id="Note10" src="${st.photo}"/>
 <p>${st.info}</p>
@@ -34,4 +35,5 @@ src="${st.YouTube}">
 <li><a href="${st.Buy3}">Verizon GalaxyNote 10+</a></li>
 <li><a href="${st.Buy4}">Sprint GalaxyNote 10+</a></li>
 <li><a href="${st.Buy5}">AT&T GalaxyNote 10+</a></li>
+</div>
 `;

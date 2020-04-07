@@ -1,9 +1,6 @@
 export default st => `
-<<<<<<< HEAD
+<div id="OP7">
 <h2 id="PT">${st.name}</h2>
-=======
-<h2>${st.name}</h2>
->>>>>>> e9a8665e3b9ea8b612fe91ca18da761f16256636
 <img id="S10" src="${st.photo}"/>
 <p>${st.info}</p>
 <h3>${st.titleSpecs}</h3>
@@ -33,15 +30,8 @@ src="${st.YouTube}">
 </iframe>
 <br></br>
 <h3>${st.Purchase}</h3>
-<<<<<<< HEAD
 <li><a href="${st.Buy1}">OnePlus's Official Website</a></li>
 <li><a href="${st.Buy2}">T-Mobile OnePlus 7 Pro</a></li>
 <li><a href="${st.Buy3}">Amazon OnePlus 7 Pro</a></li>
-=======
-<li><a href="${st.Buy1}">Samsung's Official Website</a></li>
-<li><a href="${st.Buy2}">T-Mobile GalaxyS10+</a></li>
-<li><a href="${st.Buy3}">Verizon GalaxyS10+</a></li>
-<li><a href="${st.Buy4}">Sprint GalaxyS10+</a></li>
-<li><a href="${st.Buy5}">AT&T GalaxyS10+</a></li>
->>>>>>> e9a8665e3b9ea8b612fe91ca18da761f16256636
+</div>
 `;

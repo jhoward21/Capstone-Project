@@ -16,7 +16,7 @@ export default {
   OS: "Android 10, One UI 2.1",
   BC:
     "4100 mAh Battery, 15W Fast Charging, Fast wireless charging, and reverse wireless charging.",
-  CSpec: "Camera:",
+  CSpec: "Camera",
   C1: "12 MP, f/1.5-2.4, 26mm (wide)",
   C2: "12 MP, f/2.4, 52mm (telephoto)",
   C3: "16 MP, f/2.2, 12mm (ultrawide)",

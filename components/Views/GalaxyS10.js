@@ -1,9 +1,6 @@
 export default st => `
-<<<<<<< HEAD
+<div id="G10">
 <h2 id="PT">${st.name}</h2>
-=======
-<h2>${st.name}</h2>
->>>>>>> e9a8665e3b9ea8b612fe91ca18da761f16256636
 <img id="S10" src="${st.photo}"/>
 <p>${st.info}</p>
 <h3>${st.titleSpecs}</h3>
@@ -38,4 +35,5 @@ src="${st.YouTube}">
 <li><a href="${st.Buy3}">Verizon GalaxyS10+</a></li>
 <li><a href="${st.Buy4}">Sprint GalaxyS10+</a></li>
 <li><a href="${st.Buy5}">AT&T GalaxyS10+</a></li>
+</div>
 `;

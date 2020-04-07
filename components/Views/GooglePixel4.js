@@ -1,4 +1,5 @@
 export default st => `
+<div id="Pixel4">
 <h2 id="PT">${st.name}</h2>
 <img id="S10" src="${st.photo}"/>
 <p>${st.info}</p>
@@ -13,7 +14,6 @@ export default st => `
 <h4>${st.CSpec}</h4>
 <li>${st.C1}</li>
 <li>${st.C2}</li>
-<li>${st.C3}</li>
 <h4>${st.CSpec2}</h4>
 <li>${st.FC1}</li>
 <li>${st.FC2}</li>
@@ -29,7 +29,9 @@ src="${st.YouTube}">
 </iframe>
 <br></br>
 <h3>${st.Purchase}</h3>
-<li><a href="${st.Buy1}">OnePlus's Official Website</a></li>
-<li><a href="${st.Buy2}">T-Mobile OnePlus 7 Pro</a></li>
-<li><a href="${st.Buy3}">Amazon OnePlus 7 Pro</a></li>
+<li><a href="${st.Buy1}">Google's Official Website</a></li>
+<li><a href="${st.Buy2}">Verizon Google Pixel 4XL</a></li>
+<li><a href="${st.Buy3}">AT&T Google Pixel 4XL</a></li>
+<li><a href="${st.Buy4}">BestBuy Google Pixel 4XL</a></li>
+</div>
 `;
