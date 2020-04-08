@@ -6,7 +6,7 @@ export default {
     "https://i-cdn.phonearena.com/images/review/4696-image/Apple-iPhone-11-Pro-and-Pro-Max-Review.jpg",
   name: "iPhone 11 Pro Max",
   info:
-    "Samsung's late 2019  Note flagship is widely considered the best phone all around smartphone, or the phone that could do everything. Due to it's versatility in software and hardware features. In addition to it's unique S-Pen that makes note taking, writing phone numbers, and accessing the camera quickly. Another thing with the Note 10+ is you'll never have to worry about battery, as most screen on test show the device screen staying on, on a single charge form 7 1/2 to 8 hours! The Note 10+ also sports the same useful reverse wireless charging feature as the Galaxy S10+. When a friends battery is dead you can save the day, and juice their phone up by charing it with your Note10! To enjoy this feature rich device just be pre-pared to break the bank as the base model starts at $1099!",
+    "Apple's 2019 flagship is an interesting one. Keeping the design very similar to last years device, but at the same time makes some important improvements in certain areas. For example many reviewer said Apple lag behind many high-end Android phones night shot photos. Yes Apples device's photos wasn't the best last unless your talking about video. This year Apple has made great improvements by adding a night mode to it's device. Another addition Apple has made this year is by adding a triple camera setup. Following the popular trend of ultra-wide cameras in 2019/20. Giving you three cameras to work with, ultra-wide, wide, and telephoto. The price range for the iPhone 11 Pro Max usually falls  somewhere between $899 to $1099 depending on the storage. If it we're my money I'll pick a different device as the iPhone 11 Pro Max really doesn't offer mush for the price except it being an iPhone.",
   titleSpecs: "Specifications",
   Specs: "6.5 inch 2688x1242 Super Amoled HDR10 display.",
   Specs1:
@@ -29,12 +29,12 @@ export default {
   YT: "YouTube Video:",
   YouTube: "https://www.youtube.com/embed/YXqiQuRNgTA",
   Purchase: "Links To Purchase The Device",
-  Buy1: "https://www.samsung.com/us/mobile/galaxy-note10/",
-  Buy2: "https://www.t-mobile.com/devices/samsung-galaxy-note-10-and-10-plus",
-  Buy3:
-    "https://www.verizon.com/smartphones/samsung-galaxy-note-10-plus/?sku=sku3600275",
+  Buy1:
+    "https://www.apple.com/shop/buy-iphone/iphone-11-pro?afid=p238%7CssseUkPy0-dc_mtid_20925d2q39172_pcrid_410520843280_pgrid_86413204028_&cid=wwa-us-kwgo-iphone-iphone_tradein-slid--",
+  Buy2: "https://www.t-mobile.com/cell-phone/apple-iphone-11-pro-max",
+  Buy3: "https://www.verizon.com/smartphones/apple-iphone-11-pro-max/",
   Buy4:
-    "https://www.sprint.com/en/shop/cell-phones/samsung-galaxy-note10-plus.html?ECID=SEM:SGA-Brand-Phones-Samsung-ML:%2Bsprint+%2Bnote&creative=411368875636&tfn=3140&gclid=Cj0KCQjwpfHzBRCiARIsAHHzyZqU6YQlfiN_O7gIPMvgvwzKJXhUS9M0b-I7oNVLgj8O7zDqE7jnt9saApCPEALw_wcB&gclsrc=aw.ds&ensembleId=SPHN975UBLK&contractName=0-yr-lb-18months&deviceQuantity=1&tep=true&protectionPlan=115200468&plan=pln11360001prd&service=PDSBYUP2",
+    "https://www.sprint.com/en/shop/cell-phones/apple-iphone-11-pro-max.html?ECID=SEM:SGA-Brand-Phones-Apple:iphone+11+pro+max+sprint&creative=411525808488&tfn=3140&gclid=Cj0KCQjwybD0BRDyARIsACyS8mvhm2cojwaj0FkmDabceK18boQlHE1v0tXdHYMlQWMDeLPC6siiW1MaApRvEALw_wcB&gclsrc=aw.ds",
   Buy5:
-    "https://www.att.com/buy/phones/samsung-galaxy-note10plus-512gb-aura-black.html"
+    "https://www.att.com/buy/phones/apple-iphone-11-pro-max-256gb-midnight-green.html"
 };
