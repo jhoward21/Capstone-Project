@@ -174,3 +174,20 @@ body {
 #H {
   padding: 10px;
 }
+/* Galaxy S20 Ultra Home Page */
+#S20 {
+  float: left;
+  padding: 10px;
+}
+/* Huawei P40 Pro+ Home Page */
+#H40 {
+  float: left;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#P40 {
+  float: left;
+  padding: 10px;
+}
