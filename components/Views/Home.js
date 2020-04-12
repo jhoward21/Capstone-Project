@@ -9,6 +9,7 @@ export default st => `
 <p>${st.info}</p>
 <a href="${st.link1}">Galaxy S20 Ultra Sammobile Review</a>
 </div>
+<br></br>
 <!--Huawei P40 Pro+-->
 <div id="H40">
 <h3>${st.name2}</h3>
@@ -16,12 +17,14 @@ export default st => `
 <p>${st.info2}</p>
 <a href="${st.link2}">Huawei P40 Pro+ AndroidAuthority Review</a>
 </div>
+<br></br>
 <!--Galaxy Note 10-->
 <div id="others">
 <h3>${st.name3}</h3>
 <a href="#"><img id="R10" src="${st.photo3}"/> </a>
 <p>${st.info3}</p>
 </div>
+<br></br>
 <!--iPhone 11-->
 <div id="Apple">
 <h3>${st.name4}</h3>
