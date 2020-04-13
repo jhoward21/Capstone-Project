@@ -21,14 +21,14 @@ export default st => `
 <!--Galaxy Note 10-->
 <div id="others">
 <h3>${st.name3}</h3>
-<a href="#"><img id="R10" src="${st.photo3}"/> </a>
+<a href="https://www.samsung.com/global/galaxy/galaxy-note10/"><img id="R10" src="${st.photo3}"/> </a>
 <p>${st.info3}</p>
 </div>
 <br></br>
 <!--iPhone 11-->
 <div id="Apple">
 <h3>${st.name4}</h3>
-<a href="#"> <img id="R11" src="${st.photo4}"/> </a>
+<a href="https://www.apple.com/iphone-11/?afid=p238%7CstnDjXgaq-dc_mtid_20925d2q39172_pcrid_429784605793_pgrid_105433443808_&cid=wwa-us-kwgo-iphone--slid--"> <img id="R11" src="${st.photo4}"/> </a>
 <p>${st.info4}</p>
 </div>
 </div>
